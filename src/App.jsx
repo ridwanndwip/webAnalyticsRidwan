@@ -23,7 +23,9 @@ function App() {
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
+          <a href="https://marlboro.id" target="_blank">
           <button> Click to Marlboro.id</button>
+        </a>
         </p>
       </div>
       <p className="read-the-docs">
