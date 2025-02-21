@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
+        <a href="https://vite.dev" target="_self">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_self">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
@@ -22,10 +22,17 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-          <a href="https://marlboro.id" target="_blank">
+          <a href="https://marlboro.id" target="_self">
           <button> Click to Marlboro.id</button>
-        </a>
+          </a>
+        </p><p>
+          <a href="https://djisamsoe.id" target="_self">
+          <button> Click to DSS.id</button>
+          </a>
+        </p><p>
+          <a href="https://amild.id" target="_self">
+          <button> Click to Amild.id</button>
+          </a>
         </p>
       </div>
       <p className="read-the-docs">
